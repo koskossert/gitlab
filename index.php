@@ -1,10 +1,7 @@
 <?php
-    echo "Добро пожаловать! Вот возможные команды:";
-    echo "\n1) Сложить\n2) Вычесть\n";
 
-    echo "1";
-    echo "2";
-    echo "3";
+    include_once("text.php");
+
 
     echo "\nВведите первое число: ";
     $input_1 = fgets(STDIN);
@@ -21,6 +18,12 @@
             break;
         case $oper == 2:
             echo $input_1 - $input_2;
+            break;
+        case $oper == 3:
+            echo $input_1 * $input_2;
+            break;
+        case $oper == 4:
+            echo $input_1 / $input_2;
             break;
         default:
             echo "Ошибка!";
