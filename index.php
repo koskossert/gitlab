@@ -3,6 +3,7 @@
     echo "\n1) Сложить\n2) Вычесть\n";
 
     echo "1";
+    echo "2";
 
     echo "\nВведите первое число: ";
     $input_1 = fgets(STDIN);
