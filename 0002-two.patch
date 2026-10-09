@@ -1,0 +1,24 @@
+From 2cf31736eeed112a4417e07a9e2316c0e3326bfc Mon Sep 17 00:00:00 2001
+From: Kostya Vostrikov <koskossert@gmail.com>
+Date: Fri, 9 Oct 2026 20:40:11 +0700
+Subject: [PATCH 2/2] two
+
+---
+ index.php | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/index.php b/index.php
+index 0071aba..90778ee 100644
+--- a/index.php
++++ b/index.php
+@@ -3,6 +3,7 @@
+     echo "\n1) Сложить\n2) Вычесть\n";
+ 
+     echo "1";
++    echo "2";
+ 
+     echo "\nВведите первое число: ";
+     $input_1 = fgets(STDIN);
+-- 
+2.46.0.windows.1
+

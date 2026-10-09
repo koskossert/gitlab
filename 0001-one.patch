@@ -1,0 +1,24 @@
+From 8b5386b5818100832b8299723b775194fabb3924 Mon Sep 17 00:00:00 2001
+From: Kostya Vostrikov <koskossert@gmail.com>
+Date: Fri, 9 Oct 2026 20:39:59 +0700
+Subject: [PATCH 1/2] one
+
+---
+ index.php | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/index.php b/index.php
+index e899a7f..0071aba 100644
+--- a/index.php
++++ b/index.php
+@@ -2,6 +2,7 @@
+     echo "Добро пожаловать! Вот возможные команды:";
+     echo "\n1) Сложить\n2) Вычесть\n";
+ 
++    echo "1";
+ 
+     echo "\nВведите первое число: ";
+     $input_1 = fgets(STDIN);
+-- 
+2.46.0.windows.1
+

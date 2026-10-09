@@ -4,6 +4,7 @@
 
     echo "1";
     echo "2";
+    echo "3";
 
     echo "\nВведите первое число: ";
     $input_1 = fgets(STDIN);
